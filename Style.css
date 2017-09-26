@@ -1,0 +1,129 @@
+
+
+h2{
+text-align: left;
+font-size: 24px;
+}
+#header2{
+	color: #13506d;
+}
+hr{
+margin-bottom: 30px;
+}
+
+
+div.container{
+position: relative;
+width: 960px;
+height: 440px;
+margin:50px auto;
+font-family: 'Droid Serif', serif;
+position:relative;
+background-color: rgba(128, 128, 128, 0.39);
+}
+.container h2{
+	margin : 5px 5px;
+	color: #13506d;
+}
+.container label{
+	margin : 15px 10px;
+	font-size: 13px;
+}
+
+div.registration{
+position: absolute;
+width: 320px;
+//float:left;
+padding: 10px 55px 40px;
+border-radius: 2px;
+font-size: 16px;
+}
+
+div.login{
+position: absolute;
+width: 320px;
+height: 265px;
+margin: 15px 500px;
+padding: 10px 55px 40px;
+background-color: #13506d;
+//border: 15px solid white;
+//box-shadow: 0 0 10px;
+border-radius: 2px;
+font-size: 13px; 
+}
+.login h3{
+color: WHITE;
+margin: 0px;
+//text-shadow: 0 1px 0 #fff;
+font-size: 20px;
+font-weight: bold;
+}
+.login label{
+	color: white;
+	font-size: 15px;
+	display: block;
+}
+input[type=checkbox]{
+float: left;
+}
+input[type=text],[type=password] {
+width: 97.7%;
+height: 34px;
+padding-left: 5px;
+margin-bottom: 20px;
+margin-top: 8px;
+box-shadow: 0 0 5px red;
+border: 2px solid red;
+color: #4f4f4f;
+font-size: 16px;
+}
+#dname1, #password-clear3, #Upassword{
+	border: 0px;
+}
+.registration label{
+margin: 5px;
+color: #464646;
+text-shadow: 0 1px 0 #fff;
+font-size: 20px;
+font-weight: bold;
+}
+#register {
+font-size: 20px;
+margin-top: 10px;
+margin-left: 150px;
+background-color: rgba(128, 128, 128, 0.05);
+border: 1px solid #0F799E;
+padding: 7px 35px;
+color: 13506d;
+text-shadow: 0px 1px 0px #13506D;
+font-weight: bold;
+border-radius: 2px;
+cursor: pointer;
+width: 50%;
+}
+#loginbtn{
+font-size: 15px;
+margin-left: 180px;
+border: 1px solid #9e9a0f;
+padding: 5px 15px;
+color: white;
+background-color: 13506d;
+text-shadow: 0px 1px 0px #13506D;
+font-weight: bold;
+border-radius: 2px;
+cursor: pointer;
+width: 35%;
+}
+#register:hover{
+background: linear-gradient(#36caf0 5%, #22abe9 100%);
+}
+a{
+	margin-left: 195px;
+	color: white;
+}
+.innerDiv{
+	position: absolute;
+}
+#password-clear1, #password-clear2, #password-clear3 {
+    display: none;
+}

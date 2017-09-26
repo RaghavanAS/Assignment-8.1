@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <title>JS to to master the HTML5 and CSS3 </title>
+        <!-- HTML5 shim for IE8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+      <script src=“https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js”></script>
+    <![endif]-->
+    <!-- external css linking -->
+<link rel="stylesheet" href="Style.css"/>
+<!-- Include JS File Here -->
+<!-- JS file to support JQUERY -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- script to include local js file -->
+<script type="text/javascript" src="../javascript/register.js"></script>
+</head>
+<body>
+<!-- Header -->
+<header>
+<h1> Assignment 8.1 </h1>
+</header>
+<!-- Main DIV which contains two divs inside -->
+<div class="container">
+<h2>Enter the System</h2>
+<label>It is necessary to login in Your Account in order to sign up for a course</label>
+<!-- child DIV which contains the registration form-->
+<div class="registration">
+	<!-- registration form with elements -->
+<form class="form" method="post" action="#">
+<label>ARE YOU NEW?</label><label id="header2">REGISTER</label><br>
+<input type="text" name="dname" id="name" value="User Name">
+<input type="text" name="demail" id="email" value="Email">
+<input type="text" id="password-clear1" value="password" autocomplete="off">
+<input type="password" name="password" id="password" value="">
+<input type="text" id="password-clear2" value="Confirm Password" autocomplete="off">
+<input type="password" name="password" id="Cpassword">
+<input type="button" name="register" id="register" value="Register">
+</form>
+</div>
+<!-- child div which contains the login-->
+<div class="login">
+	<!-- login form with elemnts-->
+<form class="form" method="post" action="#">
+<h3>ALREADY A STUDENT? LOGIN</h3>
+<input type="text" name="dname1" id="dname1" value="User Name">
+<input type="text" id="password-clear3" value="password" autocomplete="off">
+<input type="password" name="password" id="Upassword">
+<div class="innerDiv">
+<input type="button" name="register" id="loginbtn" value="LOGIN">
+<a href="#">Forgot Password?</a></div>
+<div class="innerDiv">
+<label><input type="checkbox" name="rememeber">Remember Me</label>
+</div>
+</form>	
+</div>
+<!--End OF Body -->
+</body>
+</html>
